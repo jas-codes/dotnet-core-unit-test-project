@@ -19,7 +19,7 @@ namespace UTestsForApp.Tests.CustomDataSources
         public string GetDisplayName(MethodInfo methodInfo, object[] data)
         {
             if (data != null)
-                return string.Format(CultureInfo.CurrentCulture, "Test - {0}", data[3]);
+                return string.Format(CultureInfo.CurrentCulture, "Test - {0}", data[2]);
             return null;
         }
     }

@@ -12,7 +12,7 @@ using UTestsForApp.Tests.CustomDataSources;
 namespace UTestsForApp.Tests
 {
     [TestClass]
-    class TestLogicCustomDataSource
+    public class TestLogicCustomDataSource
     {
         private Mock<ITestRepository> _testRepoMock = null;
         private Mock<IOptions<AppSettings>> _appSettingsMock = null;
